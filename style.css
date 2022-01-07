@@ -110,3 +110,9 @@ body{
     color: #00a82d;
     margin-top: 3%;
 }
+
+@media only screen and (max-width: 600px) {
+    #Login{
+        width: 95%;
+    }
+}

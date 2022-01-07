@@ -94,11 +94,6 @@ body{
     background-color: #127c2e;
     border-color: #127c2e;
 }
-#rememberMe{
-    position: relative;
-    top: 18px;
-    left: -95px;
-}
 #haveAcc{
     margin-top: 9%;
     color: #737373;
@@ -114,8 +109,5 @@ body{
 @media only screen and (max-width: 600px) {
     #Login{
         width: 95%;
-    }
-    #rememberMe{
-        left: -30%;
     }
 }

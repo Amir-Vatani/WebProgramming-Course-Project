@@ -1,0 +1,103 @@
+body{
+    background-image: url("background.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Login{
+    width: 35%;
+    height: 99%;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    box-shadow: 0px 4px 24px rgb(0 0 0 / 10%);
+}
+#Logo{
+    width: 25%;
+    margin-top: 7%;
+}
+#title{
+    margin: 0px;
+}
+#remember{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.account{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+    margin: 2px;
+    width: 70%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account a{
+    text-decoration: none;
+    color: rgb(117, 116, 116);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account img{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+#hor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    color: #ababab;
+    margin-top: 3%;
+}
+#hor div{
+    width: 50%;
+    height: 1px;
+    background-color: #ababab;
+}
+#username{
+    width: 70%;
+    height: 7%;
+    padding-left: 12px;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    font-size: 1em;
+    margin-top: 4%;
+}
+#loginButton{
+    width: 70%;
+    height: 7%;
+    border-radius: 7px;
+    background-color: #00a82d;
+    border-style: solid;
+    border-color: #00a82d;
+    font-size:medium;
+    font-weight: 400;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+#rememberMe{
+    position: relative;
+    top: 18px;
+    left: -95px;
+}
+#haveAcc{
+    margin-top: 9%;
+    color: #737373;
+}
+#CreateAcc{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00a82d;
+    margin-top: 3%;
+}

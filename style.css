@@ -115,7 +115,7 @@ body{
     #Login{
         width: 95%;
     }
-    /* #rememberMe{
-        left: -125px;
-    } */
+    #rememberMe{
+        left: -95px;
+    }
 }

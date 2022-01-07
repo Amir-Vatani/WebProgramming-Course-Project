@@ -114,7 +114,6 @@ body{
 @media only screen and (max-width: 600px) {
     #Login{
         width: 95%;
-        height: 95%;
     }
     #rememberMe{
         left: -125px;
